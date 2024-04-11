@@ -1,0 +1,47 @@
+<div class="container ">
+	<div class="row">
+		<div class="col-6 col-md-4">
+			<div align="center"><strong>
+    <br><br>
+            <font style="color:#616161;" size="14"> '.$datos[0]->nombre_completo . '</font><br><br>
+            <img src="' . $imageUrl . '" alt="foto"
+                style="width: 70px; height: 70px; margin-top: 10mm;"><br>';
+            if ($datos[0]->sexo == 'HOMBRE') {
+            $tbl .=
+            '<font style="color:#B38E5D;">CONTRALOR SOCIAL</font><br>
+            <font style="color:#9D2449;" size="12">' . $datos[0]->nombre . '</font><br>';
+            } else {
+            $tbl .=
+            '<font style="color:#B38E5D;">CONTRALORA SOCIAL</font><br>
+            <font style="color:#9D2449;" size="12">' . $datos[0]->nombre . '</font><br>';
+            }
+            $tbl .= '
+            <br>
+            <br>
+            <br>
+            Lic. María Teresa Jiménez Martínez<br>
+        </strong> 
+        Directora de Contraloría Social<br><br><br><br>
+        </div>
+		<div align="center"><strong>
+                <br><br>
+                    Folio comité: <font style="color:#9D2449;" size="14"><strong>' . $datos[0]->folio_comite . '</strong>
+                    </font> <br><br><br>
+                    Lada sin costo:<br>
+                    <font style="color:#9D2449;">01 951 50 15000 <br>Ext. 11704, 11705, 10192 y 10472 </font><br><br>
+                    Personalmente
+                    <br>
+                
+                     <font style="color:#9D2449;">Ciudad Administrativa, Edificio 2 "Rufino Tamayo", Planta baja, Carretera
+                        Internacional Oaxaca-Istmo Km 11.5, Tlalixtac de Cabrera, Oaxaca.</font><br><br>
+                    <strong>Vigencia al 31 de diciembre del ' . $ano . '</strong>
+                </div>
+                <div align="center"><strong>
+                        <font style="color:#B38E5D;">www.oaxaca.gob.mx/</font>
+                        <font style="color:#9D2449;">honestidad</font>
+                    </strong></div> 
+    </div>
+    <div class="col-6 col-md-4">col</div>
+    <div class="col-6 col-md-4">col</div>
+    </div>
+    </div
